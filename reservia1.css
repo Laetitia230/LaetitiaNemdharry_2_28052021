@@ -1,0 +1,727 @@
+              /*General*/
+html,body
+{
+	font-family: Raleway;
+}
+
+.flexCentre
+{
+	display: flex;
+	justify-content:center;
+	align-items: center;
+	align-content: center;
+}
+
+.flexAround
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.flexBetween
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.decorationNone
+{
+	text-decoration: none;
+}
+
+.texteGras
+{
+	font-weight: bold;
+}
+
+.bordureNone
+{
+	border: none;
+}
+                            /*Couleur*/
+.colorBleu
+{
+	color: #0065fc;
+}
+
+.colorBleuClair
+{
+	color: #deebff;
+}
+
+.colorGris
+{
+	color: #f2f2f2;
+}
+
+.backBleu
+{
+	background-color: #0065fc;
+}
+
+.backBleuClair
+{
+	background-color: #deebff;
+}
+
+.backGris
+{
+	background-color: #f2f2f2;
+}
+                                 /*Fin Couleur*/
+
+
+                    /*Nav*/
+
+.sizeLiens
+{
+	width: 45%;
+}
+
+.sizeLien{
+	width: 140px;
+	height: 99px;
+}
+
+.colorLien2
+{
+	color: black;
+}
+
+.bordureNav
+{
+	border-top:  1px solid blue;
+}
+
+.bordureNav2
+{
+	border-top:  1px solid transparent;
+}
+
+.margelogo
+{
+	margin-bottom: 7px;
+}
+
+.tailleLogo
+{
+    width: 120px; 
+    height: 50px
+}
+.sizeNav
+{
+	height: 100px;
+}
+      
+       /* Header */
+
+.bordureSearch
+{
+	width: 400px;
+	border-radius: 10px;
+	border: 0.5px solid #f2f2f2;
+}
+
+.iconSize
+{
+	height: 50px;
+	width: 50px;
+	border-radius: 10px 0 0 10px;
+}
+
+.recherche
+{
+	height: 50px;
+	width: 230px;
+	font-size: 18px;
+	color: black;
+	font-weight: bold;
+}
+
+.paddingSearch
+{
+	padding-left: 20px;
+}
+
+.buttonSearch
+{
+	height: 50px;
+	width: 120px;
+	color: white;
+	cursor: pointer;
+	border-radius: 0 10px 10px 0;
+}
+
+         /* Filtre */
+
+.margFiltre
+{
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+.filtre
+{
+    display: flex;
+    align-items: center;
+
+}
+.margFiltreTitre
+{
+    margin-right: 20px;
+}
+
+.filtreTexteIcons
+{
+    border: 2px solid #F2F2F2;
+    height: 50px;
+    border-radius: 30px;
+    margin-right: 20px;
+}
+
+.filtreIcons
+{
+    border-radius: 25px;
+    height: 52px;
+    width: 52px;
+    color: #0065FC;
+    background-color: #deebff;
+    margin-left: -2px;
+}
+   
+	
+
+.filtreTexteIcons:hover > .filtreTexte
+{
+    color: #0065FC;
+}
+
+.filtreTexteIcons:hover >.filtreIcons
+{
+    color: white;
+    background-color: #0065FC;
+}
+
+.filtreTexte
+{
+    height: 50px;
+    padding-left: 20px ;
+    padding-right: 20px;
+    border-radius: 0 25px 25px 0;
+}
+
+
+           /* Info icons*/
+
+
+.info
+{
+	display: flex;
+	align-items: center;
+}
+
+.parentIcons
+{
+	width: 20px;
+	height: 20px;
+	border: 2px solid #f2f2f2 ;
+	border-radius: 25px;
+	margin-right: 5px;
+}
+
+                      /* Herbergement Marseille */
+
+.container
+{
+    background-color: #f2f2f2;
+    border-radius: 30px;
+    width: 750px;
+    height: 520px;
+    display:flex;
+    justify-content:space-between;
+    align-items:flex-start; 
+    background-attachment: fixed;
+}
+
+h2
+{
+    justify-content: flex-start;
+    display: flex;
+    padding: 20px 20px;
+}
+
+.element1
+{
+    background-color: white;
+    width: 200px;
+    height: 160px;
+    border-radius: 20px;
+    display:flex;
+    position: absolute;
+    bottom: -60px;
+    left: 30px;
+}
+
+
+.element2
+{
+    background-color: white;
+    width: 200px;
+    height: 160px;
+    border-radius: 20px;
+    display:flex;
+    position: absolute;
+    bottom: -60px;
+    left: 250px;
+}
+.element3
+{
+    background-color: white;
+    width: 200px;
+    height: 160px;
+    border-radius: 20px;
+    display:flex;
+    position:absolute;
+    bottom: -60px;
+    left: 470px;
+}
+
+.element4
+{
+    background-color: white;
+    width: 200px;
+    height: 160px;
+    border-radius: 20px;
+    display:flex;
+    position: absolute;
+    bottom: -250px;
+    left: 30px;
+}
+.element5
+{
+    background-color: white;
+    width: 200px;
+    height: 160px;
+    border-radius: 20px;
+    display:flex;
+    position: absolute;
+    bottom: -250px;
+    left: 250px;
+}
+.element6
+{
+    background-color: white;
+    width: 200px;
+    height: 160px;
+    border-radius: 20px;
+    display:flex;
+    position: absolute;
+    bottom: -250px;
+    left: 470px;
+}
+
+.afficherPlus
+{
+    position: absolute;
+    bottom: -310px;
+    left: 30px;
+    color: black;
+}
+
+.sizeImage
+{
+    width: 190px;
+    height: 130px ;
+    border-radius: 20px;
+    margin: 4px;
+}
+
+.prix
+{
+    background-color: white;
+    width: 200px;
+    height: 50px;
+    border-radius: 0px 0px 20px 20px;
+    align-items:flex-start;
+    align-content:flex-start;
+    display: flex;
+    flex-direction: row;
+    z-index: 1;
+}
+
+.texteSize
+{
+	font-size: 11px;
+	position: absolute;
+	bottom: -3px;
+}
+
+.texteSizeS
+{
+	font-size: 14px;
+	position: absolute;
+	bottom: 20px;
+
+}
+                  /* Fin Hebergement à Marseille */
+
+                  /* Debut Plus Populaire */ 
+
+  .container2
+  {
+    background-color: #f2f2f2;
+    border-radius: 30px;
+    width: 500px;
+    height: 520px;
+    display:flex;
+    flex-direction: column;
+    justify-content:space-between;
+    align-items:flex-start; 
+    float: right;
+    position: absolute;
+    bottom: -327px;
+    right: 55px;
+    background-attachment: fixed;
+ }
+                  
+
+.sizeImage2
+{
+    width: 170px;
+    height: 120px ;
+    border-radius: 20px;
+    margin: 5px;
+}
+
+.element7
+{
+    background-color: white;
+    width: 370px;
+    height: 130px;
+    border-radius: 20px;
+    display:flex;
+    position:absolute;
+    bottom: -20px;
+    right: 120px;
+}
+
+.element8
+{
+    background-color: white;
+    width: 370px;
+    height: 130px;
+    border-radius: 20px;
+    display:flex;
+    position:absolute;
+    bottom: -165px;
+    right: 120px;
+}
+
+.element9
+{
+    background-color: white;
+    width: 370px;
+    height: 130px;
+    border-radius: 20px;
+    display:flex;
+    position: absolute;
+    bottom: -310px;
+    right: 120px;
+}
+
+.prix2
+{
+    background-color: white;
+    width: 250px;
+    height: 130px;
+    border-radius: 0px 20px 20px 0px;
+    align-items:center;
+    align-content: center;
+    display: flex;
+    flex-direction:row;
+    z-index:1;
+    position: absolute;
+    bottom: -20px;
+    right: 110px;
+}
+
+.prix3
+{
+    background-color: white;
+    width: 250px;
+    height: 130px;
+    border-radius: 0px 20px 20px 0px;
+    align-items:center;
+    align-content: center;
+    display: flex;
+    flex-direction:row;
+    z-index:1;
+    position: absolute;
+    bottom: -165px;
+    right: 110px;
+}
+
+.prix4
+{
+    background-color: white;
+    width: 250px;
+    height: 130px;
+    border-radius: 0px 20px 20px 0px;
+    align-items:center;
+    align-content: center;
+    display: flex;
+    flex-direction:row;
+    z-index:1;
+    position: absolute;
+    bottom: -310px;
+    right: 110px;
+}
+
+.texteAlign
+{
+	text-align: justify;
+}
+                     /* Fin des Plus Populaires */
+
+                     /* Activité à Marseille */
+.container3
+{
+    background-color:white;
+    display:flex;
+    justify-content:space-between;
+    align-items:flex-start;
+    width: 100%;
+    height: 500px;
+    background-attachment: fixed;
+}
+
+.element10
+{
+    background-color: white;
+    width: 250px;
+    height: 250px;
+    border-radius: 20px;
+    display:flex;
+    position:absolute;
+    bottom:-680px;
+    left: 30px;
+}
+
+.prix10
+{
+    background-color: white;
+    width: 250px;
+    height: 50px;
+    border-radius: 0px 0px 20px 20px ;
+    box-shadow: 0px 20px 20px #f2f2f2;
+    align-items:flex-start;
+    align-content:flex-start;
+    display: flex;
+    flex-direction: row;
+    z-index: 1;
+    position: absolute;
+    bottom: -730px;
+    left: 30px;
+}
+
+.element11
+{
+    background-color: white;
+    width: 250px;
+    height: 130px;
+    border-radius: 20px;
+    display:flex;
+    position:absolute;
+    bottom: -560px;
+    left: 326px;
+}
+.prix11
+{
+    background-color: white;
+    width: 250px;
+    height: 50px;
+    border-radius: 0px 0px 20px 20px ;
+    box-shadow: 0px 20px 20px #f2f2f2;
+    align-items:flex-start;
+    align-content:flex-start;
+    display: flex;
+    flex-direction: row;
+    z-index: 1;
+    position: absolute;
+    bottom: -585px;
+    left: 330px;
+}
+
+.sizeImage11
+{
+    width: 250px;
+    height: 125px ;
+    border-radius: 20px;
+    margin: 4px;
+}
+
+
+.element12
+{
+    background-color: white;
+    width: 370px;
+    height: 130px;
+    border-radius: 20px;
+    display:flex;
+    position:absolute;
+    bottom: -730px;
+    left: 326px;
+}
+
+.prix12
+{
+    background-color: white;
+    width: 250px;
+    height: 50px;
+    border-radius: 0px 0px 20px 20px ;
+    box-shadow: 0px 20px 20px #f2f2f2;
+    align-items:flex-start;
+    align-content:flex-start;
+    display: flex;
+    flex-direction: row;
+    z-index: 1;
+    position: absolute;
+    bottom: -730px;
+    left: 330px;
+}
+.sizeImage12
+{
+    width: 250px;
+    height: 100px ;
+    border-radius: 20px;
+    margin: 4px;
+}
+
+.element13
+{
+    background-color: white;
+    width: 370px;
+    height: 130px;
+    border-radius: 20px;
+    display:flex;
+    position:absolute;
+    bottom: -558px;
+    left: 626px;
+}
+
+.prix13
+{
+    background-color: white;
+    width: 250px;
+    height: 50px;
+    border-radius: 0px 0px 20px 20px ;
+    box-shadow: 0px 20px 20px #f2f2f2;
+    align-items:flex-start;
+    align-content:flex-start;
+    display: flex;
+    flex-direction: row;
+    z-index: 1;
+    position: absolute;
+    bottom: -730px;
+    left: 630px;
+}
+
+
+.element14
+{
+    background-color: white;
+    width: 370px;
+    height: 130px;
+    border-radius: 20px;
+    display:flex;
+    position:absolute;
+    bottom: -555px;
+    left: 930px;
+}
+
+.prix14
+{
+    background-color: white;
+    width: 250px;
+    height: 50px;
+    border-radius: 0px 0px 20px 20px ;
+    box-shadow: 0px 20px 20px #f2f2f2;
+    align-items:flex-start;
+    align-content:flex-start;
+    display: flex;
+    flex-direction: row;
+    z-index: 1;
+    position: absolute;
+    bottom: -570px;
+    left: 934px;
+}
+
+.sizeImage14
+{
+    width: 250px;
+    height: 130px ;
+    border-radius: 20px;
+    margin: 4px;
+}
+
+.element15
+{
+    background-color: white;
+    width: 370px;
+    height: 145px;
+    border-radius: 20px;
+    display:flex;
+    position:absolute;
+    bottom: -730px;
+    left: 930px;
+}
+.prix15
+{
+    background-color: white;
+    width: 250px;
+    height: 50px;
+    border-radius: 0px 0px 20px 20px ;
+    box-shadow: 0px 20px 20px #f2f2f2;
+    align-items:flex-start;
+    align-content:flex-start;
+    display: flex;
+    flex-direction: row;
+    z-index: 1;
+    position: absolute;
+    bottom: -730px;
+    left: 934px;
+}
+
+.sizeImage15
+{
+    width: 250px;
+    height: 140px ;
+    border-radius: 20px;
+    margin: 4px;
+} 
+
+.sizeImage3
+{
+    width: 250px;
+    height: 270px ;
+    border-radius: 20px;
+    margin: 4px;
+}
+
+.container4
+{
+    background-color: #f2f2f2;
+    border: 30px;
+    width: 100%;
+    height: 300px;
+    display:flex;
+    justify-content:space-around;
+    align-items:flex-start;  
+    margin: auto;
+    background-attachment: fixed;
+}
+.marge
+{
+    line-height: 2em;
+}

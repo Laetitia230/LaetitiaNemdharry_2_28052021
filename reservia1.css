@@ -4,6 +4,7 @@ html,body
 	font-family: Raleway;
 }
 
+
 .flexCentre
 {
 	display: flex;
@@ -154,6 +155,12 @@ html,body
 	border-radius: 0 10px 10px 0;
 }
 
+header
+{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
          /* Filtre */
 
 .margFiltre

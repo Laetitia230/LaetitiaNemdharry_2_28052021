@@ -491,7 +491,7 @@ footer a:hover
     flex-direction: column;
 }
 
-    /* Activities - Tablet */
+    /* Activities  */
     
 .activitieTab
 {
@@ -714,6 +714,17 @@ nav li:hover
     grid-row-end: span 1;
     grid-column-end: span 1;
 }
+
+.activityFrame{
+    display: grid;
+    grid-template-rows: 1fr 50px;
+    height:100%;
+    box-sizing: border-box;
+    border-radius: 15px;
+    overflow: auto;
+    box-shadow: 0 0 7px #c1c1c1;
+}
+
 
      /* Footer */
 footer

@@ -194,7 +194,7 @@ nav li a:hover
 
 .filter:hover{
     cursor: pointer;
-    background-color: #0065FC;
+    background-color: #0065fc;
     color: white;
 }
 
@@ -215,7 +215,7 @@ nav li a:hover
 .info
 {
     display: flex;
-    align-items: center;
+    align-items: baseline;
 }
 
 .parentIcons
@@ -224,8 +224,9 @@ nav li a:hover
     height: 20px;
     border: 2px solid #f2f2f2 ;
     border-radius: 25px;
-    margin-right: 5px;
+    margin-right: 10px;
 }
+ 
 
     /*Hebergement*/
 
@@ -418,6 +419,14 @@ footer a:hover
     color: #0065FC;
 }
 
+@media only screen and (max-width: 1500px){
+.activitieTab
+{
+    height: 500px;
+    
+}
+}
+
 @media only screen and (max-width: 1280px){
 
 .hotel
@@ -500,7 +509,8 @@ footer a:hover
 
 .activityFrame
 {
-    height: 190px;
+    height: 300px;
+   
 }
 
 .sizeBoxLarge, .sizeBoxSmall, .sizeBoxMedium 

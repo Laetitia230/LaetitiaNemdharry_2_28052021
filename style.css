@@ -655,14 +655,14 @@ nav li:hover
     font-size: 1.3rem;
 }
 
-.name
+.famousDescription .name
 {
     font-size: 1rem; 
 }
 
 .famousDescription p
 {
-   font-size: 0.9rem
+   font-size: 0.8rem
 }
 
 .famousDescription

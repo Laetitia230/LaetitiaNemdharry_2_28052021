@@ -640,7 +640,7 @@ nav li:hover
 
 .famous
 {
-    border-radius: 0;
+    border-radius: 15px;
     padding: 40px 20px 30px;
     margin-bottom: 40px;
 }
@@ -684,11 +684,7 @@ nav li:hover
     height: 200px;
 }
 
-.hotel
-{
-    padding: 0 20px;
-    background-color: initial;
-}
+
 
 .tab
 {

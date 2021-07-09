@@ -93,6 +93,7 @@ html,body
     font-size: 1.1rem;
     font-weight: 600;
     width: 230px;
+    font-family:Raleway ;
 }
 
 .searchPlace::placeholder
@@ -540,7 +541,7 @@ footer div
 
  #main
 {
-    margin: 0;
+    margin: -20px;
 }
 
 h2
@@ -640,9 +641,12 @@ nav li:hover
 
 .famous
 {
-    border-radius: 15px;
+    border-radius:0px;
     padding: 40px 20px 30px;
-    margin-bottom: 40px;
+    -webkit-border-radius:0px;
+    -moz-border-radius:0px;
+    -ms-border-radius:0px;
+    -o-border-radius:0px;
 }
 
 .famousFrame
@@ -682,6 +686,11 @@ nav li:hover
 .frame
 {
     height: 200px;
+}
+
+.hotel
+{
+    background-color: white;
 }
 
 

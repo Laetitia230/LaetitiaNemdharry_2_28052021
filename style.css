@@ -448,7 +448,7 @@ footer a:hover
 }
 }
 
-@media only screen and (max-width: 1024px){
+@media only screen and (max-width: 768px){
 
     /* filters*/
 
@@ -541,7 +541,7 @@ footer div
 
  #main
 {
-    margin: -20px;
+    margin: 0px;
 }
 
 h2
@@ -636,6 +636,12 @@ nav li:hover
     .filter{
         margin-bottom: 12px;
     }
+    .filterGeneral {
+        margin:-8px
+    }
+    .parentIcons{
+        width: 25px;  
+    }
 
     /* Famous small screen*/
 
@@ -647,6 +653,8 @@ nav li:hover
     -moz-border-radius:0px;
     -ms-border-radius:0px;
     -o-border-radius:0px;
+    margin:-20px;
+    margin-top: 10px;
 }
 
 .famousFrame
@@ -691,6 +699,11 @@ nav li:hover
 .hotel
 {
     background-color: white;
+    margin: 30px;
+    padding: 0px;
+}
+.hotel > h2{
+    margin-top: 20px;
 }
 
 
